@@ -83,6 +83,7 @@ html {
 .card:hover {
   transform: rotateY(20deg) skewX(-2deg) translateY(-3rem);
   box-shadow: 2rem 2rem 2rem #000;
+  transition: transform 0.5s, box-shadow 0.5s;
 }
 .card::before {
   content: "";
